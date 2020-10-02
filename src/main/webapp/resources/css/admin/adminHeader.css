@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#mainMessage {
+	display: inline-block;
+	position: relative;
+	left: 450px;
+	top: 5px;
+	font-size: 25px;
+	font-weight: bolder;
+}
+

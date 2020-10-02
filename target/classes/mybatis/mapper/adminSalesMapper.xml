@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+	<mapper namespace="AdminSales">
+	
+	
+	<resultMap type="com.DongHang_ComeFunny.www.model.vo.Order" id="ORDERLIST">
+    		<result property="pONo" column="pono"/>
+    		<result property="qbTitle" column="qbtitle"/>
+    		<result property="qbWrittenDate" column="qbwrittendate"/>
+    		<result property="qbHitsCnt" column="qbhitscnt"/>
+    		<result property="qbIsDel" column="qbisdel"/>
+    		<result property="qbStatus" column="qbstatus"/>
+    		<result property="qbWriter" column="uname"/>
+    	</resultMap>
+    	
+    	
+	</mapper>
